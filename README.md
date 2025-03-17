@@ -18,7 +18,7 @@
 ### 🔹 1. Install Dependencies
 ```bash
 pkg update && pkg upgrade -y
-pkg install python git -y
+pkg install python3 git -y
 pip install telethon asyncio
 ```
 
@@ -31,11 +31,14 @@ cd delete-all-posts-tg
 ### 🔹 3. Configure API Credentials
 1. Get your **API ID** & **API HASH** from [my.telegram.org](https://my.telegram.org/apps).
 2. Open `start.py` and enter your **API credentials**.
+3. Provide the channel username in `CHANNEL` variable as string, **where you want to delete all posts**.
 
 ### 🔹 4. Run the Script
 ```bash
-python start.py
+python3 start.py
 ```
+
+5. Enter your account `phone number`, `otp code`, `2 Factor password` (**if enabled**).
 
 ## ⚠️ Disclaimer
 **Use at your own risk!** Deleting all posts is **irreversible**. Ensure you have backups if needed.
