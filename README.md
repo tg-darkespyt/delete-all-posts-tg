@@ -37,8 +37,7 @@ cd delete-all-posts-tg
 ```bash
 python3 start.py
 ```
-
-5. Enter your account `phone number`, `otp code`, `2 Factor password` (**if enabled**).
+1. Enter your account `phone number`, `otp code`, `2 Factor password` (**if enabled**).
 
 ## ⚠️ Disclaimer
 **Use at your own risk!** Deleting all posts is **irreversible**. Ensure you have backups if needed.
